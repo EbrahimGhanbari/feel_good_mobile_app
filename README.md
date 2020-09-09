@@ -10,5 +10,3 @@
 - macOS
 - Linux
 
-
-Note: As of today that I am writing this, Kivy library currntly works on Python 3.7 or earlier on Mac and Linux. In case that is your operating system is one of these, please be mindful of that.
