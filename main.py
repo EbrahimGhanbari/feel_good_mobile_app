@@ -37,10 +37,13 @@ class SignUpScreenSuccess(Screen):
         self.manager.transition.direction = 'right'
         self.manager.current = "login_screen"
 
+
 class LoginScreenSuccess(Screen):
     def log_out(self):
         self.manager.transition.direction: "right"
         self.manager.current = "login_screen"
+    def get_quote(self, feeling):
+        print(feeling)
 
 class RootWidget(ScreenManager):
     pass
