@@ -10,6 +10,11 @@
 - macOS
 - Linux
 
+### Snapshots of the App
+
+![main](docs/main.PNG "main")
+![login](docs/login.PNG "login")
+
 
 ### Installing the Library
 We will use the kivy library to build a mobile app in Python. Below you will find the instructions on how to install kivy.
@@ -53,7 +58,9 @@ If you are using Python 3.8, run all four following commands one by one:
 Some users may get installation errors or they might get a [CRITICAL] [App] Unable to get a Window, abort error later on when they run a Kivy app. If that's the case, run the following commands:
 
      python -m pip install --upgrade pip setuptools wheel
+     
      python -m pip install docutils pygments pypiwin32 kivy_deps.sdl2==0.1.* kivy_deps.glew==0.1.*
+     
      python -m pip install kivy==1.11.1
 
 If you still get errors, see the FAQs further below.
