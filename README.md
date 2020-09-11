@@ -66,7 +66,7 @@ Some users may get installation errors or they might get a [CRITICAL] [App] Unab
 If you still get errors, see the FAQs further below.
 
 
-#### FAQs
-1. I get an error message Microsoft Visual C++ should be installed after running the pip commands.
+#### Error Message
+If you get an error message Microsoft Visual C++ should be installed after running the pip commands do the following:
 
-Solution: Download the Microsoft C++ Build Tools from https://visualstudio.microsoft.com/visual-cpp-build-tools/, install them, restart your computer, and then run again the three pip commands.
+Download the Microsoft C++ Build Tools from https://visualstudio.microsoft.com/visual-cpp-build-tools/, install them, restart your computer, and then run again the three pip commands.
